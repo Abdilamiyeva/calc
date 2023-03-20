@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1679267409 source:d:\c++ projects\homework_5\task-5\main.cpp
+	<iostream>
+	<cmath>
+	<bits/stdc++.h>
+	<string.h>
+

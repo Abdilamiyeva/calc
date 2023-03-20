@@ -1,0 +1,71 @@
+body{
+    padding:0;
+    margin: 0;
+     background: linear-gradient(90deg, rgb(3, 1, 50) 0%, rgb(25, 7, 58) 3%,rgb(22, 1, 59) 3%); 
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1920px;
+  
+}
+.inner{
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+}
+
+.calc h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgba(241, 250, 250, 0.902);
+    line-height: normal;
+    margin-top: 80px;
+    font-size: 50px;
+}
+.form_calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{ 
+    width: 300px; 
+    height: 400px;
+    background-color:rgba(10, 0, 46);
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 2px rgb(148, 148, 148,0.3);
+    padding: 20px;
+}
+tabel{
+    padding: 20px 10px;
+
+}
+#display{
+    margin: 15px 10px;
+    padding: 10px 4px;
+    font-size: 28px ;
+    width: 250px;
+    color: rgba(162, 167, 168); 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px rgba(242, 229, 229, 0.1);
+    outline: none;
+    border: none;
+}
+input[type=button]{
+    font-family: sans-serif;
+    padding: 0;
+    width: 65px;
+    height: 65px;
+    border-radius:50%;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    background-color:rgba(10, 0, 46);
+    box-shadow: 5px 5px 15px 2px rgba(148,148,148, .1);
+    color: #c4c4c4;
+    opacity: 0.8;
+}
+input[type=button]:hover{
+    color:rgb(0, 214, 255);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(31,27,129,1) 14%, rgba(58,30,36,1) 100%);
+    box-shadow: 5px 5px 15px 2px rgba(34,10,255, .4); 
+    
+}
